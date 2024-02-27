@@ -3,7 +3,7 @@ function timeConversion(s) {
     let secciones = s.split(":");
     let horas = parseInt(secciones[0]);
     let min = secciones[1];
-    let segundos = s[n-2] + s[n-1];
+    let seg = s[n-2] + s[n-1];
     let type = secciones[2].substring(2);
     if(type == "PM" && horas < 12){
         horas += 12;
@@ -11,7 +11,8 @@ function timeConversion(s) {
         horas = 0;
     }
     horas = horas.toString().padStart(2, "0");
-    console.log(horas + ":" + min + ":" + segundos);
+    console.log(horas + ":" + min + ":" + seg);
+    console.log("Holi");
 }
 
 function main() {
