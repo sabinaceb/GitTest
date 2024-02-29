@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< HEAD
     "id": "8c9a748b3f16009b",
     "type": "split",
     "children": [
@@ -13,6 +14,25 @@
             "state": {
               "type": "empty",
               "state": {}
+=======
+    "id": "bb200cafa1273f53",
+    "type": "split",
+    "children": [
+      {
+        "id": "c72b2ca5b389928d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42e58a2fcfd0007b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automation JavaScript/JavaScript vs Java, Python, .NET.md",
+                "mode": "source",
+                "source": false
+              }
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             }
           }
         ]
@@ -21,6 +41,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
     "id": "28099b997e668228",
     "type": "split",
     "children": [
@@ -30,6 +51,17 @@
         "children": [
           {
             "id": "2cd9eaa687179c41",
+=======
+    "id": "722449b2e38ae53f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1f9343f1c7b4a74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c1ecd58a717a63b",
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +71,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "95de95f7c30f2301",
+=======
+            "id": "c643a8a49b70a666",
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +90,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "89f685e83d69d770",
+=======
+            "id": "f34257e6106e5f2a",
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,6 +108,7 @@
     "width": 300
   },
   "right": {
+<<<<<<< HEAD
     "id": "3ac32b8784ef0878",
     "type": "split",
     "children": [
@@ -77,10 +118,25 @@
         "children": [
           {
             "id": "eb67b6ce6751ad48",
+=======
+    "id": "e007966291b3d704",
+    "type": "split",
+    "children": [
+      {
+        "id": "01ee19e37c0837ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9aebe7f7e17ab1c",
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "Automation JavaScript/JavaScript vs Java, Python, .NET.md",
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +148,30 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "c5e2aee089bd14f3",
+=======
+            "id": "5a6958a3b813fd15",
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "Automation JavaScript/JavaScript vs Java, Python, .NET.md",
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
+<<<<<<< HEAD
             "id": "9a570a10df16d4b8",
+=======
+            "id": "d411c3b3e461a292",
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +182,21 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "c4040c211659456b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {}
+=======
+            "id": "574ff903ff8a1c45",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Automation JavaScript/JavaScript vs Java, Python, .NET.md"
+              }
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             }
           }
         ]
@@ -138,6 +216,28 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "2cd9eaa687179c41",
   "lastOpenFiles": []
+=======
+  "active": "42e58a2fcfd0007b",
+  "lastOpenFiles": [
+    "Automation JavaScript/NodeJS.md",
+    "Automation JavaScript/JavaScript.md",
+    "Automation JavaScript/INTRODUCTION.md",
+    "Automation JavaScript/Git.md",
+    "Automation JavaScript/Variables, Data Types, Operators, Comparison.md",
+    "Automation JavaScript/SS/Pasted image 20240226234428.png",
+    "Automation JavaScript/JavaScript vs Java, Python, .NET.md",
+    "Automation JavaScript/Untitled.md",
+    "Automation JavaScript/SS/Pasted image 20240227220532.png",
+    "Automation JavaScript/SS/Pasted image 20240226234529.png",
+    "Automation JavaScript/SS/Pasted image 20240226234513.png",
+    "Automation JavaScript/SS/Pasted image 20240226234453.png",
+    "Automation JavaScript/SS/Pasted image 20240226234440.png",
+    "Automation JavaScript/SS",
+    "Automation JavaScript/SS/Pasted image 20240226222802.png",
+    "Automation JavaScript"
+  ]
+>>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
 }
