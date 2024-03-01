@@ -153,8 +153,8 @@ while (num4 < 55) {
 //Ex. 1
 let sum = 0;
 let i = 0;
-//while ( i < 0) {
-while ( i < 5) {
+//while (i < 0) {
+while (i < 5) {
   i++;
   sum += i;
 }
