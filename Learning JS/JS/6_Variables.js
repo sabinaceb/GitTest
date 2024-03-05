@@ -1,17 +1,36 @@
 //LET
 //Ex. 1
+let a = "Estoy Afuera"
 {
-    let a = 6;
+    const a = 5;
+    a = 6;
+    console.log(a)
 }
-//console.log(a); //ERROR, a not defined
+console.log(a); //ERROR, a not defined
 
 
 //VAR
 //Ex. 1
+var b = "Estoy Afuera"
 {
-    var b = 5;
+    var b = "Estoy Adentro";
 }
 console.log(b); //All good
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //Ex. 2
 function func(){

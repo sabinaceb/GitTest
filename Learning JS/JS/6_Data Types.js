@@ -57,7 +57,7 @@ const obj2 = {
         house: 4
     }
 }
-console.log(obj2.age);
+console.log(obj2.address.street);
 console.log(obj2['name']);
 console.log(obj2.address.street);
 console.log(obj2.friends);
