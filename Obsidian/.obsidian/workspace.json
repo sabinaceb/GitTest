@@ -1,38 +1,22 @@
 {
   "main": {
-<<<<<<< HEAD
-    "id": "8c9a748b3f16009b",
+    "id": "b01374e1824f8353",
     "type": "split",
     "children": [
       {
-        "id": "16d3f506df00c433",
+        "id": "f8113d1a2e78425d",
         "type": "tabs",
         "children": [
           {
-            "id": "d282f9499ce6f633",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-=======
-    "id": "bb200cafa1273f53",
-    "type": "split",
-    "children": [
-      {
-        "id": "c72b2ca5b389928d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "42e58a2fcfd0007b",
+            "id": "5dd9b342d1746792",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automation JavaScript/JavaScript vs Java, Python, .NET.md",
+                "file": "Automation JavaScript/8. Functions.md",
                 "mode": "source",
                 "source": false
               }
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             }
           }
         ]
@@ -41,27 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
-    "id": "28099b997e668228",
+    "id": "37cc2d2cfd0f365b",
     "type": "split",
     "children": [
       {
-        "id": "614bb062a306ea3a",
+        "id": "971c7f74dae01acf",
         "type": "tabs",
         "children": [
           {
-            "id": "2cd9eaa687179c41",
-=======
-    "id": "722449b2e38ae53f",
-    "type": "split",
-    "children": [
-      {
-        "id": "a1f9343f1c7b4a74",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1c1ecd58a717a63b",
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
+            "id": "84994993915ba078",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,11 +43,7 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "95de95f7c30f2301",
-=======
-            "id": "c643a8a49b70a666",
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
+            "id": "f4324ef5b73e269e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -90,11 +58,7 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "89f685e83d69d770",
-=======
-            "id": "f34257e6106e5f2a",
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
+            "id": "fece92a0827200ab",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -108,35 +72,20 @@
     "width": 300
   },
   "right": {
-<<<<<<< HEAD
-    "id": "3ac32b8784ef0878",
+    "id": "a4ecc91f9ff64cf6",
     "type": "split",
     "children": [
       {
-        "id": "804aa7f007035b65",
+        "id": "f14fe9ec9006ea72",
         "type": "tabs",
         "children": [
           {
-            "id": "eb67b6ce6751ad48",
-=======
-    "id": "e007966291b3d704",
-    "type": "split",
-    "children": [
-      {
-        "id": "01ee19e37c0837ad",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e9aebe7f7e17ab1c",
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
+            "id": "0661c6d4a2a03430",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "Automation JavaScript/JavaScript vs Java, Python, .NET.md",
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
+                "file": "Automation JavaScript/8. Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,30 +97,19 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "c5e2aee089bd14f3",
-=======
-            "id": "5a6958a3b813fd15",
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
+            "id": "e1318fd0e318d664",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "Automation JavaScript/JavaScript vs Java, Python, .NET.md",
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
+                "file": "Automation JavaScript/8. Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-<<<<<<< HEAD
-            "id": "9a570a10df16d4b8",
-=======
-            "id": "d411c3b3e461a292",
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
+            "id": "b17b805c33a0633d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -182,21 +120,13 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "c4040c211659456b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-=======
-            "id": "574ff903ff8a1c45",
+            "id": "292738f25e2de14d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Automation JavaScript/JavaScript vs Java, Python, .NET.md"
+                "file": "Automation JavaScript/8. Functions.md"
               }
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
             }
           }
         ]
@@ -216,28 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "2cd9eaa687179c41",
-  "lastOpenFiles": []
-=======
-  "active": "42e58a2fcfd0007b",
+  "active": "5dd9b342d1746792",
   "lastOpenFiles": [
-    "Automation JavaScript/NodeJS.md",
-    "Automation JavaScript/JavaScript.md",
-    "Automation JavaScript/INTRODUCTION.md",
+    "Automation JavaScript/4. JavaScript.md",
+    "Automation JavaScript/5. NodeJS.md",
+    "Automation JavaScript/6. Variables, Data Types, Operators, Comparison.md",
+    "Automation JavaScript/7. Conditions and Loops.md",
+    "Automation JavaScript/8. Functions.md",
     "Automation JavaScript/Git.md",
-    "Automation JavaScript/Variables, Data Types, Operators, Comparison.md",
-    "Automation JavaScript/SS/Pasted image 20240226234428.png",
-    "Automation JavaScript/JavaScript vs Java, Python, .NET.md",
-    "Automation JavaScript/Untitled.md",
+    "Automation JavaScript/3. JavaScript vs Java, Python, .NET.md",
+    "Automation JavaScript/2. Introduction.md",
+    "Automation JavaScript/1. Git.md",
     "Automation JavaScript/SS/Pasted image 20240227220532.png",
     "Automation JavaScript/SS/Pasted image 20240226234529.png",
     "Automation JavaScript/SS/Pasted image 20240226234513.png",
     "Automation JavaScript/SS/Pasted image 20240226234453.png",
     "Automation JavaScript/SS/Pasted image 20240226234440.png",
-    "Automation JavaScript/SS",
+    "Automation JavaScript/SS/Pasted image 20240226234428.png",
     "Automation JavaScript/SS/Pasted image 20240226222802.png",
-    "Automation JavaScript"
+    "Automation JavaScript/SS"
   ]
->>>>>>> dbaa451bc6a6336ef383efef90959e1a58086fff
 }
