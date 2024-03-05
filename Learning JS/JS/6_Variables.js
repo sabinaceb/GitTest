@@ -2,8 +2,7 @@
 //Ex. 1
 let a = "Estoy Afuera"
 {
-    const a = 5;
-    a = 6;
+    const a = false;
     console.log(a)
 }
 console.log(a); //ERROR, a not defined
@@ -16,21 +15,6 @@ var b = "Estoy Afuera"
     var b = "Estoy Adentro";
 }
 console.log(b); //All good
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //Ex. 2
 function func(){
