@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automation JavaScript/2. Introduction.md",
+                "file": "Automation JavaScript/8. Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Automation JavaScript/2. Introduction.md",
+                "file": "Automation JavaScript/8. Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Automation JavaScript/2. Introduction.md",
+                "file": "Automation JavaScript/8. Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Automation JavaScript/2. Introduction.md"
+                "file": "Automation JavaScript/8. Functions.md"
               }
             }
           }
@@ -148,24 +148,26 @@
   },
   "active": "b1922f2e2126235d",
   "lastOpenFiles": [
-    "Automation JavaScript/8. Functions.md",
-    "Pasted image 20240305001836.png",
+    "Pasted image 20240305222620.png",
+    "Pasted image 20240305221406.png",
     "Automation JavaScript/6. Variables, Data Types, Operators, Comparison.md",
-    "Automation JavaScript/7. Conditions and Loops.md",
-    "Automation JavaScript/SS/Pasted image 20240305000511.png",
-    "Automation JavaScript/1. Git.md",
     "Automation JavaScript/5. NodeJS.md",
     "Automation JavaScript/4. JavaScript.md",
     "Automation JavaScript/3. JavaScript vs Java, Python, .NET.md",
+    "Automation JavaScript/2. Introduction.md",
+    "Automation JavaScript/1. Git.md",
+    "Automation JavaScript/8. Functions.md",
+    "Automation JavaScript/SS/Pasted image 20240305214830.png",
+    "Pasted image 20240305001836.png",
+    "Pasted image 20240305214744.png",
+    "Automation JavaScript/7. Conditions and Loops.md",
+    "Automation JavaScript/SS/Pasted image 20240305000511.png",
     "Automation JavaScript/SS/Pasted image 20240227220532.png",
     "Automation JavaScript/SS/Pasted image 20240226234529.png",
     "Automation JavaScript/SS/Pasted image 20240226234513.png",
     "Automation JavaScript/SS/Pasted image 20240226234453.png",
     "Automation JavaScript/SS/Pasted image 20240226234440.png",
-    "Automation JavaScript/SS/Pasted image 20240226234428.png",
-    "Automation JavaScript/SS/Pasted image 20240226222802.png",
     "Automation JavaScript/SS",
-    "Automation JavaScript/2. Introduction.md",
     "Automation JavaScript"
   ]
 }
