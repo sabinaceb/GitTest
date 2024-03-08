@@ -16,6 +16,7 @@ const val2 = 2;
 console.log(val1 + val2);
 
 //3. BIGINT
+let bigIntExample = BigInt(999919925474191);
 
 //4. BOOLEAN
 const first_b = true; 
@@ -27,8 +28,45 @@ const second_u = undefined;
 console.log(first_u); // undefined
 console.log(second_u); // undefined
 
+let undefinedExample;
+
 //6. SYMBOL
+//Sirve para gnerar cosas dinamicas y abstraer elementos unicos para acceder a datos
+let symbolProp1 = Symbol(); //asigna una llave especial para la variable, no se repite, Symbol("Hola") -> se puede definir asi
+let symbolProp2 = Symbol();
+let symbolProp3 = Symbol();
+if (symbolProp1 !== symbolProp2) { //debe immprimirse porque no son iguales, son llaves unicas
+    console.log("No son iguales");
+}
+if (symbolProp1 !== symbolProp3) {
+    console.log("No son iguales");
+}
+//se puede usar para esto
+let objExample = {
+    [symbolProp1] : "Hola", //key tipo symbol = llave unica
+    [symbolProp2] : "mundo",
+    [symbolProp3] : "!",
+    userNameInput : "Sabina",
+    passwordInput : "pass",
+    user : true,
+    prop2 : 1
+}
+console.log(objExample.userNameInput); //same que objExample[symbolProp1];
+console.log(objExample[symbolProp1]);
+console.log(objExample[symbolProp2]);
+console.log(objExample[symbolProp3]);
+console.log(objExample[0]); //no encuentra la propiedad
+console.log(objExample.symbolProp1); //no encuentra la propiedad
+//para symbolos reutilizables:
+if (Symbol("global") == Symbol("global")) { //no son iguales
+    console.log("Somos iguales");
+}
+if (Symbol.for("global") === Symbol.for("global")) { //aqui si se hace referencia en generar un symbol con el global y que  se puedan compartir
+    console.log("Si somos iguales");
+}
+
 //7. NULL
+let nullExample = null;
 
 //##########################
 //COMPLEX
@@ -97,6 +135,15 @@ const user1 = {
 user1.name = "Pete"; // (*)
 alert(user1.name); // Pete
 
+//Ex. 9
+let userInfo = {
+    address: "Direccion falsa #123";
+    zipCode: 311092,
+    telephone: "20319931" 
+}
+if (userInfo.zipCode == 311092) {
+    sendLetter();
+}
 
 
 //ARRAY

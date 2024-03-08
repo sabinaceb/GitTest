@@ -1,149 +1,210 @@
-/**
- * Learning materials:
- * Function declaration: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
- * Function expression: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function
- * Arrow functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
- */
+//Block designed to execute a particular task
 
-/**
- * write function that will do sum for two numbers
- * @example
- * console.log(sum(1, 3)) //4
- * console.log(sum(-1, 1)) //0
- */
+//#########################################
+//DECLARATION
+//Ex. 1 wihout arguments
+function sayHello() { //function <function_name> (<arguments>) {}, can no contain arguments
+    console.log("Hello");
+}
+sayHello(); //execute the function
+
+//Ex. 2 with arguments
 function sum(a, b) {
-  return a + b;
+    return a + b;
+}
+console.log(sum(3, 4));
+
+//Ex. 2 with arguments but undefined
+function sum(a, b) {
+    a + b; //no return
+}
+console.log(sum(3, 4));
+
+//Ex. 3 Hoisting
+console.log(sum(3, 4)); //call it before its declaration
+function sum(a, b) {
+    //a + b; //no return
+    return a + b;
 }
 
-/**
-* write function that returns firstName and lastName of a given object that contains firstName and lastName
-* @example
-* const person = {
-*    firstName: "John",
-*    lastName: "Dou"
-* }
-* console.log(getFullName(person)) // John Dou
-*/
-function getFullName(person) {
-  return person.firstName + " " + person.lastName; 
+//#########################################
+//EXPRESION
+//creation happens in the context of the assignement expression = FUNCTION EXPRESSION
+const sum = function(a, b) {
+    return a + b;
+}
+console.log(sum(2, 6));
+
+//Hoist
+console.log(sum(2, 6)); //error, we can't access before the inicialization = The function created in the expression syntex is not hoisted
+const sum = function(a, b) {
+    return a + b;
 }
 
-/**
-* write function that checks if number is odd
-* true if odd, false if even
-* @example
-* console.log(isOdd(2)) // false
-* console.log(isOdd(3)) // true
-* hint: try using Remainder: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder operator
-*/
-function isOdd(n) {
-  if (n%2 == 0) {
-      return false;
-  } else {
-      return true;
-  }
+
+//#########################################
+//IIFE = self executeing anonnymouos function
+//executed after it is defined
+(function () {
+    console.log("Hello");
+})();
+
+//Ex. 1 with arguments
+//when we have many functions for may source files, so we can use it when we don't need use again the function
+(function (name) {
+    console.log(`Hello ${name}`);
+})('Sabina');
+
+
+//#########################################
+//DEFAULT PARAMETERS
+function sum(a, b) {
+    console.log('a is: ', a); //undeined
+    console.log('b is: ', b); //undefined
+    return a + b;
 }
+console.log("The result is ", sum()); //NaN
 
-/**
-* write function that returns shortest of the words in the given array
-* @example
-* console.log(getShortest(["one", "three", "four"])) // one
-*/
-function getShortest(wordArray) {
-  let shortestWord = wordArray[0];
-  for (let word in wordArray) {
-      if (wordArray[word].length < shortestWord.length) {
-          shortestWord = wordArray[word];
-      }
-  }
-  return shortestWord;
+//Ex. 1 default parameters
+function sum(a = 0, b = 0) {
+    console.log('a is: ', a); //0
+    console.log('b is: ', b); //0
+    return a + b;
 }
+console.log("The result is ", sum()); //0
 
-/**
-* write function that returns word google with given numbers of "o" symbols
-* @example
-* console.log(getGoogle(5)) // gooooogle
-*/
-function getGoogle(n) {
-  let str ="";
-  for(let i=0; i<n; i++) {
-      str += "o";
-  }
-  return "g" + str + "gle"
+//Ex. 2 one argument
+function sum(a = 0, b = 0) {
+    console.log('a is: ', a); //2
+    console.log('b is: ', b); //0
+    return a + b;
 }
+console.log("The result is ", sum(2)); //2
 
-/**
-* write function that returns object based on the given information
-* (params may be null, so, please use default ones)
-* @example
-* getUser("John", "Dou", 42) should return
-* {
-*    firstName: "John",
-*    lastName: "Dou",
-*    age: 42
-* }
-*/
-function getUser(firstName=null, lastName=null, age=null) {
-  let obj = {
-      firstName: firstName,
-      lastName: lastName,
-      age: age
-  }
-  return obj;
+//Ex. 3 two arguments
+function sum(a = 0, b = 0) {
+    console.log('a is: ', a); //2
+    console.log('b is: ', b); //5
+    return a + b;
 }
+console.log("The result is ", sum(2, 5)); //7
 
-/**
-* write function that calculates total path traveled.
-* path represented as array of objects with field distance and direction
-* e.g [{direction: "Kiyv - Minsk", distance: 567}, {direction: "Kiyv - Paris", distance: 2402}]
-* @example
-* const travel = [{direction: "Kiyv - Minsk", distance: 567}, {direction: "Kiyv - Paris", distance: 2402}];
-* console.log(getTotalPath(travel)) //2969
-*/
-function getTotalPath(path) {
-  let total = 0;
-  for(let idx in path){
-      total += path[idx].distance;
-  }
-  return total;
+
+//#########################################
+//ARROW FUNCTIONS
+//No keyword 'function'
+//NOT hoisted, can't be used as contructors
+//Has no 'this'
+//Ex. 1 Normal function
+const sum = function(a, b) {
+    return a + b;
 }
+console.log(sum(5, 6));
 
-/**
-* write a function that calculates a final price considering the Amount
-* reduced by discount percentage(hint: you need to use the Closure here)
-* JS Closures: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
-* @example
-* const discount10 = discountFunction(10);
-* console.log(discount10(90)); // 81
-* console.log(discount10(100)); // 90
-*/
+//Ex. 1 Arrow function
+const sum = (a, b) => a + b;
+console.log(sum(5, 6));
 
-function discountFunction(percentage) {
-  return function (amount) {
-      return amount - (amount * percentage) / 100;
-  };
+//Ex. 2 Normal with arguments
+const double = function(a) {
+    return a * 2;
 }
-const func = discountFunction(10);
+console.log(double(5));
 
-/**
-* Write the methods inside the given objects that:
-* 1. console logs keys of the given object (please use for..in cycle)
-* 2. returns the string 'My name is John Doe, and I am 25 years old. My best friend is Daniel'
-* referring to the data stored in the object. The string should be constructed using the properties from the object
-*/
-const myObject = {
-  name: 'John',
-  lastName: 'Doe',
-  age: 25,
-  friends: ['Mike', 'Alan', 'Daniel'],
-  keys() {
-      //write your code here
-      for (let key in myObject) {
-          console.log(key)
-      }
-  },
-  call() {
-      //write your code here
-      return `My name is ${this.name} ${this.lastName}, and I am ${this.age} years old. My best friend is ${this.friends[2]}`;
-  },
-};
+//Ex. 2 Arrow with arguments
+const double2 = (a) => a * 2;
+console.log(double2(5));
+
+//Ex. 3 Normal no arguments
+const sayHello = function() {
+    console.log("Hello");
+}
+sayHello();
+
+//Ex. 3 Arrow no arguments
+const sayHello = () => console.log("Hello");
+sayHello();
+
+
+//#########################################
+//CLOSURES
+function makeFunction() { //outer function
+    let a = 1;
+    //closure
+    return function() { //inner function
+        console.log('a is: ' + a);
+    }
+}
+const func = makeFunction(); 
+func(); //accessing the variable a that is outside of the inner function
+
+//Ex. 1 normal function
+function counter() {
+    let a = 0;
+    return a++;
+} 
+console.log(counter()); //0, new variable every time we call the function
+console.log(counter()); //0
+console.log(counter()); //0
+console.log(counter()); //0
+
+//Ex. 1 with clousure
+function makeCounter() {
+    let a = 0;
+    return function(){
+        return a++;
+    }
+} 
+const counter2 = makeCounter();
+console.log(counter2()); //0
+console.log(counter2()); //1
+console.log(counter2()); //2
+console.log(counter2()); //3
+
+//Ex. 1 with clousure and arguments
+function makeCounter(a) {
+    return function(){
+        return a++;
+    }
+} 
+const counter3 = makeCounter(4);
+console.log(counter3()); //4
+console.log(counter3()); //5
+console.log(counter3()); //6
+console.log(counter3()); //7
+
+
+//#########################################
+//METHODS
+//Ex. 1
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    say: function() {
+        console.log("Hello");
+    }
+}
+console.log(person.firstName); //John
+person.say(); //Hello
+
+//Ex. 1 short syntex
+const person2 = {
+    firstName: "John",
+    lastName: "Doe",
+    say() { //function keyword removed
+        console.log("Hello");
+    }
+}
+console.log(person2.firstName); //John
+person2.say(); //Hello
+
+//Ex. 2 refer to object attributes
+const person3 = {
+    firstName: "John",
+    lastName: "Doe",
+    say() { //function keyword removed
+        console.log(`Hello ${this.firstName}`); 
+    }
+}
+console.log(person3.firstName); //John
+person3.say(); //Hello John

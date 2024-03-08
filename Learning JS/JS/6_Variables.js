@@ -64,3 +64,7 @@ console.log(j);
     console.log(l);
 }
 //ERROR, we can't reasign value to the cons variable
+
+
+//GLOBAL
+glovalVar = 2; //no importa el tipo es una variable global si indicar el tipo ni var ni let ni const
