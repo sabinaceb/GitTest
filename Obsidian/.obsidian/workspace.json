@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "35b37edd2c160dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automation JavaScript/9. String and Arrays.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Automation JavaScript/8. Functions.md",
+                "file": "Automation JavaScript/9. String and Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Automation JavaScript/8. Functions.md",
+                "file": "Automation JavaScript/9. String and Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Automation JavaScript/8. Functions.md"
+                "file": "Automation JavaScript/9. String and Arrays.md"
               }
             }
           }
@@ -146,9 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1922f2e2126235d",
+  "active": "35b37edd2c160dc5",
   "lastOpenFiles": [
+    "Automation JavaScript/1. Git.md",
+    "Automation JavaScript/9. String and Arrays.md",
     "Automation JavaScript/6. Variables, Data Types, Operators, Comparison.md",
+    "Automation JavaScript/SS/Pasted image 20240312003147.png",
     "Automation JavaScript/8. Functions.md",
     "Automation JavaScript/SS/Pasted image 20240305222620.png",
     "Automation JavaScript/SS/Pasted image 20240305221406.png",
@@ -156,7 +172,6 @@
     "Automation JavaScript/4. JavaScript.md",
     "Automation JavaScript/3. JavaScript vs Java, Python, .NET.md",
     "Automation JavaScript/2. Introduction.md",
-    "Automation JavaScript/1. Git.md",
     "Automation JavaScript/SS/Pasted image 20240305214830.png",
     "Pasted image 20240305001836.png",
     "Pasted image 20240305214744.png",
@@ -165,7 +180,6 @@
     "Automation JavaScript/SS/Pasted image 20240227220532.png",
     "Automation JavaScript/SS/Pasted image 20240226234529.png",
     "Automation JavaScript/SS/Pasted image 20240226234513.png",
-    "Automation JavaScript/SS/Pasted image 20240226234453.png",
     "Automation JavaScript/SS",
     "Automation JavaScript"
   ]
