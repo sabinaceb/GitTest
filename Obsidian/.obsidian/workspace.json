@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automation JavaScript/8. Functions.md",
+                "file": "Automation JavaScript/9. String and Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,13 +158,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35b37edd2c160dc5",
+  "active": "b1922f2e2126235d",
   "lastOpenFiles": [
-    "Automation JavaScript/1. Git.md",
+    "Automation JavaScript/8. Functions.md",
     "Automation JavaScript/9. String and Arrays.md",
     "Automation JavaScript/6. Variables, Data Types, Operators, Comparison.md",
+    "Automation JavaScript/7. Conditions and Loops.md",
+    "Automation JavaScript/1. Git.md",
     "Automation JavaScript/SS/Pasted image 20240312003147.png",
-    "Automation JavaScript/8. Functions.md",
     "Automation JavaScript/SS/Pasted image 20240305222620.png",
     "Automation JavaScript/SS/Pasted image 20240305221406.png",
     "Automation JavaScript/5. NodeJS.md",
@@ -175,7 +175,6 @@
     "Automation JavaScript/SS/Pasted image 20240305214830.png",
     "Pasted image 20240305001836.png",
     "Pasted image 20240305214744.png",
-    "Automation JavaScript/7. Conditions and Loops.md",
     "Automation JavaScript/SS/Pasted image 20240305000511.png",
     "Automation JavaScript/SS/Pasted image 20240227220532.png",
     "Automation JavaScript/SS/Pasted image 20240226234529.png",

@@ -1,26 +1,3 @@
-//STRINGS
-const simpleString = 'I am string';
-const simpleString2 = "I am string too";
-const templateString = `I am template string: ${simpleString}`;
-console.log(simpleString);
-console.log(simpleString2);
-console.log(templateString);
-
-//Length property
-const simpleString3 = 'I am string';
-console.log(simpleString3.length); // 11
-
-//charAt()
-const sentence = 'The quick brown fox jumps over the lazy dog.';
-const index = 4;
-console.log(`The character at index ${index} is ${sentence.charAt(index)}`); //output: "The character at index 4 is q"
-
-//Ex. 1
-const str = 'My first string';
-console.log(str[0]); //numeration begin with 0
-console.log(str.charAt(0));
-console.log(str.length);
-
 //POPULAR METHODS
 //slice()
 let str1 = 'My new string';
@@ -32,6 +9,8 @@ const myS = s.slice(3,7); //1er parametro donde corta y empieza el nuevo string,
 console.log(myS);
 console.log(s);
 
+
+//##################################################################
 //trim()
 let str2 = '   string   ';
 console.log(str2.trim()); // 'string'
@@ -41,6 +20,8 @@ const myS1 = s1.trim(); //Elimina los espacios al inicio y al final
 console.log(myS1 + ': Hello');
 console.log(s1);
 
+
+//##################################################################
 //toUpperCase()
 let str3 = 'string';
 console.log(str3.toUpperCase()); // 'STRING'
@@ -50,6 +31,8 @@ const mySToUpper = s2.toUpperCase();
 console.log(mySToUpper);
 console.log(s2);
 
+
+//##################################################################
 //toLowerCase()
 let str4 = 'STRING';
 console.log(str4.toLowerCase()); // 'string'
@@ -59,6 +42,8 @@ const mySToLower = s3.toLowerCase();
 console.log(mySToLower);
 console.log(s3);
 
+
+//##################################################################
 //split()
 let str5 = "Hello";
 let result = str5.split(""); //without character on the method, we indicate to separate each character
@@ -69,6 +54,8 @@ const arrayOfNames = stringOfNames.split(','); //character to split
 console.log(stringOfNames);
 console.log(arrayOfNames);
 
+
+//##################################################################
 //match()
 const str6 = 'cost is $2345.87';
 const costMatch = str6.match(/\$([\d\.]+)/);
@@ -99,6 +86,8 @@ const re5 = re4[1]; //solo la incidencia con index 1
 console.log(re4); //array completo
 console.log(re5); //incidencia en index 1
 
+
+//##################################################################
 //replace()
 const simpleStrin4 = 'I am string';
 const replacedString = simpleStrin4.replace('I am', 'You are');
