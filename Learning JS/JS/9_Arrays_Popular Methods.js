@@ -190,6 +190,11 @@ let arrReverse = ["Hello", "World!", "How", "are", "you?"];
 arrReverse.reverse();
 console.log(arrReverse);
 // Output: ["you?", "are", "How", "World!", "Hello"]
+//Ex. 1
+const animals7 = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+const animalsReversed = animals7.reverse();
+console.log(`Initial array: [${animals7}]`); //also change the initial array
+console.log(`Reverse array: [${animalsReversed}]`);
 
 
 //##################################################################
@@ -204,6 +209,20 @@ arrSort2.sort(function(a, b) {
 });
 console.log(arrSort2);
 // Output: [1, 5, 10, 25, 40, 100]
+//Ex. 1 without function, sort by default = convert to string
+const arrayOfNumbers= [2, 82, 4, 90, 9];
+const sortedArray = arrayOfNumbers.sort(); //default sort, ,by string
+console.log(`Initial array: [${arrayOfNumbers}]`);
+console.log(`Sorted array: [${sortedArray}]`);
+//correct sort
+const arrayOfNumbers2 = [2, 82, 4, 90, 9];
+//const sortedArray2 = arrayOfNumbers2.sort((a, b) => b - a); //desc order
+const sortedArray2 = arrayOfNumbers2.sort((a, b) => a - b); //asc order
+console.log(`Sorted array: [${sortedArray2}]`);
+//array of strings
+const arrayOfNumbers3 = ['mango', 'bananas', 'pears', 'oranges', 'apples'];
+const sortedArray3 = arrayOfNumbers3.sort();
+console.log(`Sorted array: [${sortedArray3}]`);
 
 
 //##################################################################
@@ -214,6 +233,17 @@ let newArrMap = arrMap.map(function(num) {
 });
 console.log(newArrMap);
 // Output: [2, 4, 6, 8, 10]
+//Ex. 1 forEach and Push
+const arrayOfNumbers4 = [1, 5, 6, 2, 15];
+const arrayOfMultipliedNumbers = [];
+arrayOfNumbers4.forEach((currentNumber) => arrayOfMultipliedNumbers.push(currentNumber * 2));
+console.log(arrayOfMultipliedNumbers);
+
+//Ex. 1 map
+const arrayOfNumbers5 = [1, 5, 6, 2, 15];
+const arrayMap = arrayOfNumbers5.map((currentNumber) => currentNumber * 2);
+console.log(arrayMap);
+console.log(arrayOfNumbers5);
 
 
 //##################################################################
@@ -224,6 +254,12 @@ let resultEvery = arrEvery.every(function(num) {
 });
 console.log(resultEvery);
 // Output: true
+//Ex. 1
+const arrayOfNames = ['John', 'Jack', 'Jodie', 'Jane'];
+const containJ = arrayOfNames.every(name => name.includes('J'));
+const containN = arrayOfNames.every(name => name.includes('N'));
+console.log(`Do all nams in the array contain letter "J": ${containJ}`);
+console.log(`Do all nams in the array contain letter "N": ${containN}`);
 
 
 //##################################################################
@@ -232,6 +268,10 @@ let arrFiter1 = [1, 2, 3, 4, 5, 6];
 let newArrFilter1 = arrFiter1.filter(num => num % 2 === 0);
 console.log(newArrFilter1);
 // Output: [2, 4, 6]
+//Ex. 1 with numbers
+const arrayOfNumbers6 = [1, 5, 2, 63, 11, 42];
+const arrayOfEvenNumbers = arrayOfNumbers6.filter(currentNumber => currentNumber % 2 === 0);
+console.log(arrayOfEvenNumbers);
 
 
 //##################################################################
@@ -240,6 +280,14 @@ let arrFound = [1, 2, 3, 4, 5, 6];
 let found = arrFound.find(num => num > 3);
 console.log(found);
 // Output: 4
+//Ex. 1 one element, the first element that match the condition
+const arrayOfNumbers7 = [2, 32, 5, 63, 11, 138, 194];
+const numberAbove42 = arrayOfNumbers7.find(number => number > 42);
+console.log(numberAbove42); //63
+//Ex. 2 undefined, any element match the condition
+const arrayOfNumbers8 = [2, 32, 5, 63, 11, 138, 194];
+const numberAbove420 = arrayOfNumbers8.find(number => number > 420);
+console.log(numberAbove420); //undefinied
 
 
 //##################################################################
@@ -248,6 +296,14 @@ let arrSome = [1, 2, 3, 4, 5];
 let resultSome = arrSome.some(num => num > 3);
 console.log(resultSome);
 // Output: true
+//Ex. 1 contains a string value?
+const arrayOfNumbers9 = [4, 16, '52', 2, 32, '123'];
+const containString = arrayOfNumbers9.some(number => typeof number === 'string');
+console.log(containString);
+//Ex. 1 contains an object value?
+const arrayOfNumbers10 = [4, 16, '52', 2, 32, '123'];
+const containObject = arrayOfNumbers10.some(number => typeof number === 'object');
+console.log(containObject);
 
 
 //##################################################################
@@ -256,3 +312,15 @@ let arrReduce = [1, 2, 3, 4, 5];
 let sumReduce = arrReduce.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log(sumReduce);
 // Output: 15
+//Ex. 1 3 Parameters: acumulator (accumulate the result), current value, index
+const arrayOfNumbers11 = [2, 8, 1, 50, 31, 25, 9];
+const sum = arrayOfNumbers11.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+});
+console.log(sum); //126
+//Ex. 2
+const arrayOfNumbers12 = [2, 8, 1, 50, 31, 25, 9];
+const sum2 = arrayOfNumbers12.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 10); //126 + 10 = 136
+console.log(sum2);
