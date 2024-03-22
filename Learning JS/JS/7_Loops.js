@@ -116,7 +116,7 @@ for (let step = 0; step < 5; step++) {
   //############################
   //FOR... OF
   const arrayOfNumber = [1,2,3,4,5];
-  for (let el of arrayOfNumber){ //for (<value_type> el of <arrary_name>) { ... }
+  for (let el of arrayOfNumber){ //for (<value_type> el of <arrary_name>) { ... } mientras existan elementos dentro del objeto de elementos
     console.log(el);
   }
   // 1

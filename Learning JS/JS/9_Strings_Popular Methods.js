@@ -101,3 +101,13 @@ console.log(s5.replace(/JAVA/g, 'JS')); //actualiza todas las incidencias que es
 console.log(s5.replace(/JAVA/gi, 'JS')); //actualiza todas las incidencias que estan en mayus y minus
 console.log(s5.replace(/java/gi, 'JS')); //igual que arriba
 console.log(s5.replace(/JavA/gi, 'JS')); //igual que arriba
+
+
+//##################################################################
+//REGEX
+/*
+. = Cualquier caracter excepto nueva linea (enter o \n)
+* = Cualquier cantidad de caracteres 
+? = Hace al anterior opcional
+\b = Boundaries
+*/

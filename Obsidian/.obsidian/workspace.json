@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automation JavaScript/9. String and Arrays.md",
+                "file": "Automation JavaScript/7. Conditions and Loops.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "c5d98c9f05da7ff3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
               }
             }
           },
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Automation JavaScript/9. String and Arrays.md",
+                "file": "Automation JavaScript/7. Conditions and Loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Automation JavaScript/9. String and Arrays.md",
+                "file": "Automation JavaScript/7. Conditions and Loops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Automation JavaScript/9. String and Arrays.md"
+                "file": "Automation JavaScript/7. Conditions and Loops.md"
               }
             }
           }
@@ -158,10 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1922f2e2126235d",
+  "active": "c5d98c9f05da7ff3",
   "lastOpenFiles": [
-    "Automation JavaScript/8. Functions.md",
     "Automation JavaScript/9. String and Arrays.md",
+    "Automation JavaScript/8. Functions.md",
     "Automation JavaScript/6. Variables, Data Types, Operators, Comparison.md",
     "Automation JavaScript/7. Conditions and Loops.md",
     "Automation JavaScript/1. Git.md",

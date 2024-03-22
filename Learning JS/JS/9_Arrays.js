@@ -6,6 +6,7 @@ const arrayOf = Array.of(1,2,3);// Array.of method
 console.log(arrayLiteral);
 console.log(arrayConstructorElements);
 console.log(arrayOf);
+console.log(arrayConstructorLength);
 
 //Array elements
 const arr = [1,2,3];
